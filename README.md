@@ -18,3 +18,17 @@ Then you are able to execute this sym link and run `nvim` and it will automatica
 ```bash
 ln -s ${PWD}/.zshrc ~/.zshrc
 ```
+
+## Homebrew
+
+To install homebrew dependencies you need to use [homebrew bundle](https://github.com/Homebrew/homebrew-bundle):
+
+```bash
+brew tap Homebrew/bundle
+```
+
+and then execute this to install the dependencies:
+
+```bash
+brew bundle
+```

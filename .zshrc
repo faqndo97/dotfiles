@@ -1,4 +1,11 @@
 # -------------------------------------------------------------------
+# VARIABLES
+# -------------------------------------------------------------------
+ZSH_THEME="robbyrussell"
+PROMPT='%{$fg[yellow]%}[%D{%L:%M:%S}] '$PROMPT
+AWS_SDK_LOAD_CONFIG=1
+
+# -------------------------------------------------------------------
 # PLUGINS
 # -------------------------------------------------------------------
 plugins=(git zsh-autosuggestions)
@@ -24,13 +31,6 @@ source $ZSH/oh-my-zsh.sh
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
-
-# -------------------------------------------------------------------
-# VARIABLES
-# -------------------------------------------------------------------
-ZSH_THEME="robbyrussell"
-PROMPT='%{$fg[yellow]%}[%D{%L:%M:%S}] '$PROMPT
-AWS_SDK_LOAD_CONFIG=1
 
 # -------------------------------------------------------------------
 # SHORTCUTS 

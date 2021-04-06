@@ -8,20 +8,23 @@ AWS_SDK_LOAD_CONFIG=1
 # -------------------------------------------------------------------
 # PLUGINS
 # -------------------------------------------------------------------
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions terraform)
 
 # -------------------------------------------------------------------
 # EXPORTS
 # -------------------------------------------------------------------
+export NVM_DIR="$HOME/.nvm"
+export ZSH=$HOME/.oh-my-zsh
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+
 export PATH=$PATH:/usr/local/Cellar/node/6.1.0/libexec/npm/bin
 export PATH=$PATH:/usr/local/opt/yq@3/bin
 export PATH=$PATH:$HOME/.rvm/bin
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/bin
-
-export NVM_DIR="$HOME/.nvm"
-export ZSH=$HOME/.oh-my-zsh
+export PATH=$PATH:$GOBIN
 
 # -------------------------------------------------------------------
 # CONFIGS

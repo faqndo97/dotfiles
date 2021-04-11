@@ -19,6 +19,11 @@ Then you are able to execute this sym link and run `nvim` and it will automatica
 ln -s ${PWD}/.zshrc ~/.zshrc
 ```
 
+**Link tmux**
+```
+ln -s ${PWD}/.tmux.conf ~/.tmux.conf
+```
+
 ## Homebrew
 
 To install homebrew dependencies you need to use [homebrew bundle](https://github.com/Homebrew/homebrew-bundle):

@@ -25,6 +25,7 @@ nmap <leader> f :call CocAction('format')<CR>
 " NERDTree settings
 map <C-\> :NERDTreeFind<CR>
 let NERDTreeQuitOnOpen = 1 
+let NERDTreeShowHidden = 1
 let g:NERDTreeWinSize = 60
 
 " Tabulous

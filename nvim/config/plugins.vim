@@ -10,44 +10,30 @@ call plug#begin()
   Plug 'morhetz/gruvbox'
 
   " JS
-  Plug 'pangloss/vim-javascript'
-  Plug 'HerringtonDarkholme/yats.vim'
+  Plug 'pangloss/vim-javascript' " JavaScript bundle for vim, this bundle provides syntax highlighting and improved indentation.
 
   " Ruby
-  Plug 'slim-template/vim-slim'
-  Plug 'vim-ruby/vim-ruby'
-  Plug 'ngmy/vim-rubocop'
-
-  " DART
-  Plug 'dart-lang/dart-vim-plugin'
-  Plug 'natebosch/vim-lsc'
-  Plug 'natebosch/vim-lsc-dart'
-
-  " Flutter
-  Plug 'thosakwe/vim-flutter'
+  Plug 'vim-ruby/vim-ruby' " This project contains Vim's runtime files for ruby support.
+  Plug 'tpope/vim-rails' " Vim plugin for editing Ruby on Rails applications.
+  Plug 'ngmy/vim-rubocop' " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
 
   " Autocomplete
-  Plug 'tpope/vim-endwise'
+  Plug 'tpope/vim-endwise' " This is a simple plugin that helps to end certain structures automatically.
 
   " Nerdtree
-  Plug 'scrooloose/nerdtree'
-  Plug 'Xuyuanp/nerdtree-git-plugin'
+  Plug 'scrooloose/nerdtree' " File system explorer.
+  Plug 'Xuyuanp/nerdtree-git-plugin' " A plugin of NERDTree showing git status flags.
 
   " Misc
-  Plug 'Yggdroot/indentLine'
-  Plug 'webdevel/tabulous'
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  Plug 'vim-airline/vim-airline'
-  Plug 'janko-m/vim-test'
-  Plug 'chiel92/vim-autoformat'
+  Plug 'Yggdroot/indentLine' " Displaying thin vertical lines at each indentation level for code indented with spaces.
+  Plug 'webdevel/tabulous' " Rename tab label.
+  Plug 'neoclide/coc.nvim', {'branch': 'release'} " Make your Vim/Neovim as smart as VSCode.
+  Plug 'vim-airline/vim-airline' " Lean & mean status/tabline for vim.
+  Plug 'janko-m/vim-test' " A Vim wrapper for running tests on different granularities.
   Plug '/usr/local/opt/fzf'
-  Plug 'junegunn/fzf.vim'
-
-  " ALE async linter
-  Plug 'w0rp/ale'
+  Plug 'junegunn/fzf.vim' " Things you can do with fzf and Vim.
+  Plug 'w0rp/ale' " Asynchronous Lint Engine.
 
   " Git
-  Plug 'airblade/vim-gitgutter'
-  Plug 'tpope/vim-fugitive'
-  Plug 'tpope/vim-rhubarb'
+  Plug 'airblade/vim-gitgutter' " A Vim plugin which shows a git diff in the sign column.
 call plug#end()

@@ -31,26 +31,8 @@ let g:NERDTreeWinSize = 60
 " Tabulous
 let tabulousLabelNameTruncate = 0
 
-" Vim-lsc
-let g:lsc_auto_map = v:true
-
-" Dart
-let g:dart_style_guide = 2
-let g:dart_format_on_save = 1
-
-" Vim-Flutter
-nnoremap <leader>fa :FlutterRun<cr>
-nnoremap <leader>fq :FlutterQuit<cr>
-nnoremap <leader>fr :FlutterHotReload<cr>
-nnoremap <leader>fR :FlutterHotRestart<cr>
-nnoremap <leader>fD :FlutterVisualDebug<cr>
-
 " Ruby test
-nmap <silent> t<C-n> :TestNearest<CR>
 nmap <silent> ,. :TestFile<CR>
-nmap <silent> t<C-s> :TestSuite<CR>
-nmap <silent> t<C-l> :TestLast<CR>
-nmap <silent> t<C-g> :TestVisit<CR>
 
 " Copy to clipboard
 set clipboard=unnamed

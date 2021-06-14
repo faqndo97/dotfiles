@@ -36,3 +36,5 @@ nmap <silent> ,. :TestFile<CR>
 
 " Copy to clipboard
 set clipboard=unnamed
+
+autocmd Filetype html,xml,erb,html.erb source ~/dotfiles/nvim/plugged/vim-closetag/plugin/closetag.vim

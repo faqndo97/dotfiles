@@ -33,7 +33,11 @@ call plug#begin()
   Plug '/usr/local/opt/fzf'
   Plug 'junegunn/fzf.vim' " Things you can do with fzf and Vim.
   Plug 'w0rp/ale' " Asynchronous Lint Engine.
+  Plug 'tpope/vim-surround' " The plugin provides mappings to easily delete, change and add such surroundings in pairs.
+  Plug 'alvan/vim-closetag' " Auto close (X)HTML tags
+  Plug 'tpope/vim-eunuch' " Vim sugar for the UNIX shell commands
 
   " Git
   Plug 'airblade/vim-gitgutter' " A Vim plugin which shows a git diff in the sign column.
+  Plug 'tpope/vim-fugitive' " Fugitive is the premier Vim plugin for Git
 call plug#end()

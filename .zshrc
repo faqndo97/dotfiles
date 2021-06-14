@@ -51,6 +51,7 @@ alias rdbcr="rails db:create"
 alias rdbmi="rails db:migrate"
 alias grs="git reset --soft"
 alias rroute="rails routes | grep"
+alias nb="new_branch"
 
 # -------------------------------------------------------------------
 # FUNCTIONS
@@ -69,4 +70,8 @@ rails-create-service() {
 
   touch $BLC/test/services/$1_test.rb
   echo $fg[green] ✔ $fg[white] $BLC/app/services/$1 created
+}
+
+new_branch() {
+  gcb feature/ADK-$1
 }

@@ -36,6 +36,9 @@ call plug#begin()
   Plug 'tpope/vim-surround' " The plugin provides mappings to easily delete, change and add such surroundings in pairs.
   Plug 'alvan/vim-closetag' " Auto close (X)HTML tags
   Plug 'tpope/vim-eunuch' " Vim sugar for the UNIX shell commands
+  Plug 'mattn/emmet-vim' " emmet-vim is a vim plug-in which provides support for expanding abbreviations similar to emmet.
+  Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'} " Tailwind CSS class name completion for coc.nvim
+  Plug 'arthurxavierx/vim-caser' " Easily change word casing with motions, text objects or visual mode.
 
   " Git
   Plug 'airblade/vim-gitgutter' " A Vim plugin which shows a git diff in the sign column.

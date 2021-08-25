@@ -75,3 +75,6 @@ rails-create-service() {
 new_branch() {
   gcb feature/ADK-$1
 }
+
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+AWS_SDK_LOAD_CONFIG=1

@@ -2,7 +2,7 @@ nnoremap <C-p> :FZF -m<cr>
 nnoremap <silent> <leader>l :Lines<cr>
 
 " CoC extensions
-let g:coc_global_extensions = ['coc-angular', 'coc-css', 'coc-elixir', 'coc-html', 'coc-json', 'coc-tsserver']
+let g:coc_global_extensions = ['coc-angular', 'coc-css', 'coc-elixir', 'coc-html', 'coc-json', 'coc-tsserver', 'coc-tailwindcss']
 set hidden
 set nobackup
 set nowritebackup
@@ -37,4 +37,5 @@ nmap <silent> ,. :TestFile<CR>
 " Copy to clipboard
 set clipboard=unnamed
 
-autocmd Filetype html,xml,erb,html.erb source ~/dotfiles/nvim/plugged/vim-closetag/plugin/closetag.vim
+"autocmd Filetype html,xml,erb,html.erb source ~/dotfiles/nvim/plugged/vim-closetag/plugin/closetag.vim
+let g:closetag_filenames = "*.html.erb,*.html,*.xhtml,*.phtml"

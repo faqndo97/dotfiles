@@ -8,3 +8,7 @@ brew 'imagemagick'
 brew 'neovim'
 brew 'golang'
 brew 'tmux'
+brew 'awscli'
+brew 'tfenv'
+tap versent/taps
+brew install saml2aws

@@ -40,6 +40,10 @@ call plug#begin()
   Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'} " Tailwind CSS class name completion for coc.nvim
   Plug 'arthurxavierx/vim-caser' " Easily change word casing with motions, text objects or visual mode.
 
+  " Snippets
+  Plug 'SirVer/ultisnips'
+  Plug 'honza/vim-snippets'
+
   " Git
   Plug 'airblade/vim-gitgutter' " A Vim plugin which shows a git diff in the sign column.
   Plug 'tpope/vim-fugitive' " Fugitive is the premier Vim plugin for Git

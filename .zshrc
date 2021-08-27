@@ -78,3 +78,5 @@ new_branch() {
 
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 AWS_SDK_LOAD_CONFIG=1
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

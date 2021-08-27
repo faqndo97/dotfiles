@@ -24,6 +24,11 @@ ln -s ${PWD}/.zshrc ~/.zshrc
 ln -s ${PWD}/.tmux.conf ~/.tmux.conf
 ```
 
+**Install fzf key bindings**
+```
+$(brew --prefix)/opt/fzf/install
+```
+
 ## Homebrew
 
 To install homebrew dependencies you need to use [homebrew bundle](https://github.com/Homebrew/homebrew-bundle):

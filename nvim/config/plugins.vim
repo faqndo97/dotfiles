@@ -8,6 +8,9 @@ endif
 call plug#begin()
   " Syntaxis
   Plug 'morhetz/gruvbox'
+  Plug 'bluz71/vim-moonfly-colors'
+  Plug 'joshdick/onedark.vim'
+  Plug 'kaicataldo/material.vim'
 
   " JS
   Plug 'pangloss/vim-javascript' " JavaScript bundle for vim, this bundle provides syntax highlighting and improved indentation.

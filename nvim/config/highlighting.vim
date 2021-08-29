@@ -7,14 +7,10 @@ let g:gruvbox_contrast_light = 'hard'
 let g:gruvbox_invert_selection = 0
 let g:gruvbox_italic = 1
 
-let g:airline_theme = 'material'
+let g:airline_theme = 'onedark'
 
-colorscheme material
-"set background=dark
-
-if (has('termguicolors'))
-  set termguicolors
-endif
+colorscheme onedark
+set background=dark
 
 let g:indentLine_color_term = 237
 let g:indentLine_setColors = 1

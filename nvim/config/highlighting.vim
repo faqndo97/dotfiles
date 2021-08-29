@@ -12,6 +12,8 @@ let g:airline_theme = 'onedark'
 colorscheme onedark
 set background=dark
 
+set colorcolumn=120
+
 let g:indentLine_color_term = 237
 let g:indentLine_setColors = 1
 let g:indentLine_enabled = 0

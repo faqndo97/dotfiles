@@ -42,6 +42,7 @@ call plug#begin()
   Plug 'mattn/emmet-vim' " emmet-vim is a vim plug-in which provides support for expanding abbreviations similar to emmet.
   Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'} " Tailwind CSS class name completion for coc.nvim
   Plug 'arthurxavierx/vim-caser' " Easily change word casing with motions, text objects or visual mode.
+  Plug 'tpope/vim-commentary'
 
   " Snippets
   Plug 'SirVer/ultisnips'

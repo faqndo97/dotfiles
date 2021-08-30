@@ -51,6 +51,7 @@ alias rdbcr="rails db:create"
 alias rdbmi="rails db:migrate"
 alias rroute="rails routes | grep"
 alias nb="new_branch"
+alias nv="nvim ."
 
 # -------------------------------------------------------------------
 # FUNCTIONS

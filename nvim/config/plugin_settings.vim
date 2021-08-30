@@ -1,5 +1,16 @@
+" FZF
+let $FZF_DEFAULT_OPTS="--ansi --preview-window 'right:60%' --layout reverse --margin=1,4 --preview 'bat --color=always --style=header,grid --line-range :300 {}'
+\ --bind shift-up:preview-up,shift-down:preview-down,
+\ctrl-b:preview-page-up,ctrl-f:preview-page-down"
+
 nnoremap <C-p> :FZF -m<cr>
+nnoremap <C-l> :BLines<cr>
+nnoremap <C-f> :Ag<cr>
 nnoremap <silent> <leader>l :Lines<cr>
+nnoremap <silent> <leader>gc :Commits<cr>
+nnoremap <silent> <leader>gcb :BCommits<cr>
+nnoremap <silent> <leader>b :Buffers<cr>
+nnoremap <silent> <leader>gs :GFiles?<cr>
 
 " CoC extensions
 let g:coc_global_extensions = ['coc-angular', 'coc-css', 'coc-elixir', 'coc-html', 'coc-json', 'coc-tsserver', 'coc-tailwindcss']
@@ -33,6 +44,7 @@ let tabulousLabelNameTruncate = 0
 
 " Ruby test
 nmap <silent> ,. :TestFile<CR>
+let ruby_spellcheck_strings = 1
 
 " Copy to clipboard
 set clipboard=unnamed

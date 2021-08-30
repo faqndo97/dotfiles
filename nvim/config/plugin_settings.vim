@@ -39,3 +39,9 @@ set clipboard=unnamed
 
 "autocmd Filetype html,xml,erb,html.erb source ~/dotfiles/nvim/plugged/vim-closetag/plugin/closetag.vim
 let g:closetag_filenames = "*.html.erb,*.html,*.xhtml,*.phtml"
+
+" UltiSnips
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsEditSplit="vertical" " If you want :UltiSnipsEdit to split your window.

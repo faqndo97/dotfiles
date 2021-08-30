@@ -1,0 +1,61 @@
+snippet rvcwp "render view component with parameters"
+<%= render ${1:MyComponent}.new(${2:args}) %>
+endsnippet
+
+snippet rvc "render view component without parameters"
+<%= render ${1:MyComponent}.new %>
+endsnippet
+
+snippet bp "add binding pry"
+<% binding.pry %>
+endsnippet
+
+snippet bb "add byebug"
+<% byebug %>
+endsnippet
+
+snippet tf "render turbo frame"
+<%= turbo_frame_tag '${1:frame_id}' do %>
+  ${2}
+<% end %>
+endsnippet
+
+snippet tfs "render turbo frame with source"
+<%= turbo_frame_tag '${1:frame_id}', src: ${2:source}_path(${3:path_args})%>
+endsnippet
+
+snippet dc- "data-controller=" 
+data-controller="${1:controller-name}"
+endsnippet
+
+snippet da- "data-action=" 
+data-action="${1:event}->${2:controller-name}#${3:controller-method}"
+endsnippet
+
+snippet dc{ "data: { controller: }" 
+data: { controller: "${1:controller-name}" }
+endsnippet
+
+snippet dca{ "data: { controller:, action: }" 
+data: { controller: "${1:controller-name}", action: "${2:event}->$1#${3:action}"}
+endsnippet
+
+snippet ttop "target: _top"
+target: '_top'
+endsnippet
+
+snippet t "translate"
+t('.${1:translation}')
+endsnippet
+
+snippet t= "translate"
+<%= t('.${1:translation}') %>
+endsnippet
+
+snippet rpl
+<%= render partial: '${1:item}', locals: { :${2:name} => '${3:value}'${0} } %>
+endsnippet
+
+snippet rp
+<%= render partial: '${0:item}' %>
+endsnippet

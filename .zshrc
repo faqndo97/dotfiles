@@ -49,7 +49,6 @@ bindkey "^[e" end-of-line
 alias rdbdr="rails db:drop"
 alias rdbcr="rails db:create"
 alias rdbmi="rails db:migrate"
-alias grs="git reset --soft"
 alias rroute="rails routes | grep"
 alias nb="new_branch"
 

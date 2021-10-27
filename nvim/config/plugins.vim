@@ -43,6 +43,10 @@ call plug#begin()
   Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'} " Tailwind CSS class name completion for coc.nvim
   Plug 'arthurxavierx/vim-caser' " Easily change word casing with motions, text objects or visual mode.
   Plug 'tpope/vim-commentary'
+  Plug 'dbeniamine/cheat.sh-vim'
+  Plug 'michaeljsmith/vim-indent-object'
+  Plug 'nelstrom/vim-textobj-rubyblock'
+  Plug 'kana/vim-textobj-user'
 
   " Snippets
   Plug 'SirVer/ultisnips'

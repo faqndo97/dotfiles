@@ -10,5 +10,7 @@ brew 'golang'
 brew 'tmux'
 brew 'awscli'
 brew 'tfenv'
+brew 'zoxide'
 tap versent/taps
 brew install saml2aws
+

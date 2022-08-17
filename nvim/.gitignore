@@ -1,7 +1,3 @@
-nvim/plugged
-nvim/autoload
-tmux-*.log
-
 # Compiled Lua sources
 luac.out
 
@@ -43,4 +39,4 @@ luac.out
 *.x86_64
 *.hex
 
-nvim/plugin/packer_compiled.lua
+plugin/packer_compiled.lua

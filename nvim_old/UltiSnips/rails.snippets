@@ -1,0 +1,91 @@
+snippet auth
+authorize(${1:resource})
+endsnippet
+
+snippet authpc
+authorize(${1:resource}, policy_class: ${2:MyPolicy})
+endsnippet
+
+snippet authpcm
+authorize(${1:resource}, :${2:create}?, policy_class: ${3:MyPolicy})
+endsnippet
+
+snippet authm
+authorize(${1:resource}, :${2:create}?)
+endsnippet
+
+snippet pscope
+${1:MyPolicy}::Scope.new(${2:args}).resolve
+endsnippet
+
+snippet dclass
+described_class
+endsnippet
+
+snippet bp
+binding.pry
+endsnippet
+
+snippet defi18n
+def ${1:translation}_i18n
+  t('.${2}')
+end
+endsnippet
+
+snippet fbs
+${1:Model}.find_by(slug: '${2}')
+endsnippet
+
+snippet new_request_spec
+# frozen_string_literal: true
+
+require 'rails_helper'
+
+RSpec.describe ${1:ClassName}, type: :request do
+  describe '#${2:ACTION}' do
+  end
+end
+endsnippet
+
+snippet new_spec
+# frozen_string_literal: true
+
+require 'rails_helper'
+
+RSpec.describe ${1:ClassName} do
+end
+endsnippet
+
+snippet context
+context '${1}' do
+  ${2}
+end
+endsnippet
+
+snippet contextit
+context '${1}' do
+  it '${2}' do
+    ${3}
+  end
+end
+endsnippet
+
+snippet allow_ld
+allow(FeatureFlags::CheckStatus).to receive(:lookup).with(hash_including(flag: ${1})).and_return(${2})
+endsnippet
+
+snippet ld_check
+FeatureFlags::CheckStatus.lookup(flag: :${1}, record: ${2})
+endsnippet
+
+snippet describe#
+describe '#${1}' do
+  ${2}
+end
+endsnippet
+
+snippet describe.
+describe '.${1}' do
+  ${2}
+end
+endsnippet

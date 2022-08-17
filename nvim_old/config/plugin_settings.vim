@@ -13,7 +13,7 @@ nnoremap <silent> <leader>b :Buffers<cr>
 nnoremap <silent> <leader>gs :GFiles?<cr>
 
 " CoC extensions
-let g:coc_global_extensions = ['coc-angular', 'coc-css', 'coc-elixir', 'coc-html', 'coc-json', 'coc-tsserver', 'coc-tailwindcss']
+let g:coc_global_extensions = ['coc-angular', 'coc-css', 'coc-elixir', 'coc-html', 'coc-json', 'coc-tsserver', 'coc-tailwindcss', 'coc-solargraph']
 set hidden
 set nobackup
 set nowritebackup

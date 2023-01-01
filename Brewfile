@@ -9,4 +9,4 @@ brew 'neovim'
 brew 'tmux'
 brew 'tfenv'
 brew 'zoxide'
-
+brew  'ripgrep'

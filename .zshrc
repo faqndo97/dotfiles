@@ -80,3 +80,4 @@ new_branch() {
 AWS_SDK_LOAD_CONFIG=1
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(zoxide init zsh)"

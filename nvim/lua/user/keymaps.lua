@@ -65,7 +65,7 @@ keymap("n", "<leader>gs", "<cmd>Telescope git_status<cr>", opts)
 keymap("n", "<leader>gc", "<cmd>Telescope git_commits<cr>", opts)
 
 -- NULL-LS
-keymap("n", "<leader>lf", "<cmd>lua vim.lsp.buf.formatting_sync(nil, 10000)<CR>", opts)
+keymap("n", "<leader>lf", "<cmd>lua vim.lsp.buf.format(nil, 10000)<CR>", opts)
 
 -- INSERT --
 -- Press jk fast to escape

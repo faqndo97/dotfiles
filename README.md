@@ -42,3 +42,4 @@ and then execute this to install the dependencies:
 ```bash
 brew bundle
 ```
+NOTE: To have nvim up and running correctly you need to have install node and nerd fonts

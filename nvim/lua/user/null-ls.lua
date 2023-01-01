@@ -5,15 +5,15 @@ end
 
 local diagnostics = null_ls.builtins.diagnostics
 local formatting = null_ls.builtins.formatting
+local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 null_ls.setup({
   debug = false,
   sources = {
-    diagnostics.rubocop,
-    diagnostics.erb_lint,
+    diagnostics.standardrb,
+    -- diagnostics.erb_lint,
     diagnostics.eslint,
-    formatting.rubocop,
-    formatting.erb_lint,
-    formatting.eslint,
+    -- formatting.standardrb,
+    -- formatting.erb_lint,
   },
 })

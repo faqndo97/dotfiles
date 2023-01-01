@@ -8,7 +8,7 @@ AWS_SDK_LOAD_CONFIG=1
 # -------------------------------------------------------------------
 # PLUGINS
 # -------------------------------------------------------------------
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions rails)
 
 # -------------------------------------------------------------------
 # EXPORTS
@@ -36,7 +36,7 @@ source $ZSH/oh-my-zsh.sh
 [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
 # -------------------------------------------------------------------
-# SHORTCUTS 
+# SHORTCUTS
 # -------------------------------------------------------------------
 bindkey "[D" backward-word
 bindkey "[C" forward-word
